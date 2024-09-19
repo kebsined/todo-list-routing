@@ -1,0 +1,21 @@
+.loader {
+	padding: 10px;
+	margin: 20px auto;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 15px solid rgba(235, 235, 237, 0.497);
+	border-left-color: transparent;
+	transform: translate(-8%, -8%);
+	animation: loader 1s infinite;
+}
+
+@keyframes loader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
